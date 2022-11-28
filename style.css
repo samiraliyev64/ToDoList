@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-do-header {
+    font-size: 45px;
+}
+
+
+
+.to-do-input {
+    padding: 10px 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    transition: all .3s ease;
+}
+
+.to-do-input:hover {
+    background: whitesmoke;
+}
+
+.add {
+    font-size: 30px;
+    padding: 7px;
+    color: red;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.remove {
+    color: white;
+    font-size: 25px;
+    transition: all .3s ease;
+    cursor: pointer;
+
+}
+
+.done {
+    color: white;
+    font-size: 25px;
+    transition: all .3s ease;
+    cursor: pointer;
+
+}
+
+.add:hover {
+    color: rgb(204, 16, 16);
+}
+
+.remove:hover,
+.done:hover {
+    color: whitesmoke;
+}
+
+.add-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all-tasks {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 70px;
+    color: white;
+}
+
+.tasks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    background: purple;
+    border: 1px solid purple;
+    border-radius: 25px;
+    padding: 25px;
+    width: 50%;
+}
+
+.finished-tasks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.to-do-text {
+    color: white;
+    font-size: 20px;
+}
